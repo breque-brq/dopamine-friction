@@ -1,0 +1,106 @@
+/* Options Page: Brutalist Design */
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Inter', -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    border: 10px solid #FFFFFF;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+}
+
+header p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 10px 0 40px 0;
+    opacity: 0.7;
+}
+
+.config-item {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+input[type="number"] {
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 900;
+    width: 100%;
+    outline: none;
+}
+
+.unit {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.description {
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0.6;
+    line-height: 1.4;
+}
+
+button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    min-height: 1em;
+}
+
+footer {
+    margin-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+    font-size: 10px;
+    opacity: 0.5;
+}

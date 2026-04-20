@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "BRQ-01: Dopamine Friction",
+  "version": "1.0",
+  "description": "Fricção brutalista contra o scroll infinito.",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "BRQ-01 Config",
+    "default_popup": "options.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.twitter.com/*", 
+        "*://*.x.com/*", 
+        "*://*.instagram.com/*", 
+        "*://*.facebook.com/*", 
+        "*://*.tiktok.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BRQ-01: CONFIG</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BRQ-01</h1>
+            <p>DOPAMINE FRICTION CONTROL</p>
+        </header>
+
+        <main>
+            <section class="config-item">
+                <label for="scrollLimit">LIMITE DE SCROLL (PX)</label>
+                <div class="input-group">
+                    <input type="number" id="scrollLimit" value="3000" step="500" min="500">
+                    <span class="unit">PX</span>
+                </div>
+                <p class="description">A barreira será ativada a cada X pixels de scroll acumulado.</p>
+            </section>
+
+            <button id="save">INSTALAR CONFIGURAÇÃO</button>
+            <div id="status"></div>
+        </main>
+
+        <footer>
+            <p>ORGANIZAÇÃO BRQ // ANTI QUO PROTOCOL</p>
+            <p>LICENÇA: AGPL-3.0</p>
+        </footer>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BRQMobile</string>
+    <string name="accessibility_service_description">Monitora o scroll para aplicar fricção de dopamina (BRQ-01).</string>
+</resources>
